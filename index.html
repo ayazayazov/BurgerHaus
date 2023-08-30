@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BurgerHaus</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./our-story.css" />
   </head>
   <body>
     <header>
@@ -12,24 +13,120 @@
       <nav>
         <div class="navbar">
           <ul>
-            <img src="#" alt="Logo" />
-            <li><a href="#ourstory">OUR STORY</a></li>
-            <li><a href="#ourmenu">OUR MENU</a></li>
-            <li><a href="#locations">LOCATIONS</a></li>
-            <li><a href="#contact">CONTACT</a></li>
+            <img
+              id="logo"
+              src="./burgerhaus.png"
+              alt="BurgerHaus"
+              width="115px"
+              style="padding-left: 10px"
+            />
+            <li>
+              <a
+                style="
+                  color: rgb(75, 62, 45);
+                  background-color: rgb(255, 145, 77);
+                "
+                href="./ordernow.html"
+                >ORDER NOW</a
+              >
+            </li>
+            <li>
+              <a href="#contact">CONTACT</a>
+            </li>
+            <li>
+              <a href="#locations">LOCATIONS</a>
+            </li>
+            <li>
+              <a href="#menu">MENU</a>
+            </li>
+            <li>
+              <a href="#ourstory">OUR STORY</a>
+            </li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
-      <section id="ourstory"></section>
-      <section id="ourmenu"></section>
-      <section id="locations"></section>
+      <div>
+        <img width="100%" src="./burgermainimage.webp" alt="Burgers" />
+        <div class="centered">Best Burgers in Your City</div>
+      </div>
+      <section id="ourstory">
+        <div class="container">
+          <div class="image">
+            <img src="./burgerhistory.jpg" />
+          </div>
+          <div class="text-h1">
+            <h1>OUR STORY</h1>
+            <hr />
+            <div class="text-p">
+              <p>
+                Burgerhaus is a small business adventure of father-son team, Jon
+                and Evan Costas from Valparaiso, Indiana. Their quest was to
+                take a great American tradition the hamburger and make it
+                international. Burgerhaus brings the exotic flavors from around
+                the globe to your Hoosier community.
+              </p>
+              <p>
+                Our desire is that your visit here is more than a meal, but an
+                exploration of the finest USDA prime beef combined with zesty
+                natural ingredients from far away places. Unique appetizers,
+                creative salads, “Haus Specials”, craft beer and fine wines
+                provide tasty destinations for the entire family.
+              </p>
+              <p>
+                In addition to feeding Hoosiers, Burgerhaus strives to be a
+                responsible global citizen. In 2014 we began a partnership with
+                Kids Alive, International we call “Full Belly Full Heart”. A
+                portion of every burger sale at Burgerhaus goes to provide
+                balanced meals to hungry children in third world poverty. We
+                have provided over 500,000 meals so far and hope to soon reach
+                1,000,000 with your help.
+              </p>
+              <hr />
+              <p>Thank you for being our guest today.</p>
+              <p>Gustabit Mundi: Taste the World!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="menu">
+        <h2>MENU</h2>
+      </section>
+      <section id="locations">
+        <h3>LOCATIONS</h3>
+      </section>
     </main>
 
     <footer>
-      <section id="contact"></section>
+      <section id="contact">
+        <h4>CONTACT</h4>
+        <hr />
+        <form action="">
+          <label for="name">Your Name</label>
+          <br />
+          <input type="text" name="" id="name" />
+          <br />
+          <br />
+          <label for="email">Your Email</label>
+          <br />
+          <input type="email" name="" id="email" />
+          <br />
+          <br />
+          <label for="subject">Subject</label>
+          <br />
+          <input type="text" name="" id="subject" />
+          <br />
+          <br />
+          <label for="message">Your Message</label>
+          <br />
+          <textarea name="" id="message" cols="30" rows="5"></textarea>
+          <br />
+          <br />
+          <button>SEND</button>
+        </form>
+      </section>
     </footer>
   </body>
 </html>

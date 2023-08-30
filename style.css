@@ -1,20 +1,36 @@
 body{
     background-color: bisque;
 }
-.navbar li{
-    float: right;
-}
-.navbar li a{
-    display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 .navbar ul{
     list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(96, 79, 57);
 }
+
+.navbar a{
+    display: block;
+  color: rgb(255, 145, 77);
+  text-align: center;
+  padding: 25px;
+  text-decoration: none;
+  font-family: verdana;
+}
+.navbar a:hover{
+    background-color: rgb(75, 62, 45);
+}
+
+.navbar li{
+    float: right;
+    border-left: 1px solid rgb(255, 145, 77);
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 400%;
+    background-color: rgb(255, 145, 77);
+    color: rgb(75, 62, 45);
+  }
